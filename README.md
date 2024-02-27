@@ -1,1 +1,1 @@
-# ruby-challenge
+# ruby-scriting-challenge

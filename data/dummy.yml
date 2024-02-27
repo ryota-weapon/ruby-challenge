@@ -1,2 +1,28 @@
-key1: value1
-key2: value2
+Tables:
+  User:
+    count: 1000
+    columns:
+      - id: sequential
+      - name: random_string
+      - email: random_string
+      - created_at: increment_date
+
+  Post:
+    count: 5000
+    columns:
+      - id: sequential
+      - user_id: random_number
+      - title: random_string
+      - content: random_string
+      - created_at: increment_date
+
+  Relation:
+    count: 2000
+    columns:
+      - id: sequential
+      - user_id: random_number
+      - post_id: random_number
+      - type: random_string
+      - created_at: increment_date
+
+bulk_insert: 100

@@ -1,0 +1,16 @@
+GEM
+  specs:
+    concurrent-ruby (1.2.3)
+    faker (3.2.3)
+      i18n (>= 1.8.11, < 2)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  faker
+
+BUNDLED WITH
+   2.4.19

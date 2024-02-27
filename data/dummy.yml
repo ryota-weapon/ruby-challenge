@@ -2,10 +2,10 @@ Tables:
   User:
     count: 10
     columns:
-      - id: sequential
-      - name: random_string
-      - email: random_string
-      - created_at: increment_date
+      - id: integer sequential
+      - name: text random_string
+      - email: text random_string
+      - created_at: date increment_date
 
   Post:
     count: 5
